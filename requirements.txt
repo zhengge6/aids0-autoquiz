@@ -1,0 +1,6 @@
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=4.9
+pycryptodome>=3.19
+pywin32>=306        # Windows only: WMI 卷影副本 / DPAPI
+qrcode>=7.4         # optional: 生成登录二维码

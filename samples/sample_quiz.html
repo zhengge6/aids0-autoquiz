@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>答题</title></head>
+<body>
+<div class="exam">
+  <form id="answerForm" action="/answer2.php" method="post">
+    <div class="question" id="q1">
+      <div class="q-title">1. 世界艾滋病日是每年的哪一天？</div>
+      <label><input type="radio" name="answer1" value="1" id="q1a"> A. 3月1日</label>
+      <label><input type="radio" name="answer1" value="2" id="q1b"> B. 6月1日</label>
+      <label><input type="radio" name="answer1" value="3" id="q1c"> C. 12月1日</label>
+      <label><input type="radio" name="answer1" value="4" id="q1d"> D. 9月1日</label>
+    </div>
+
+    <div class="question" id="q2">
+      <div class="q-title">2. 目前艾滋病可以治愈吗？</div>
+      <label><input type="radio" name="answer2" value="1" id="q2a"> A. 完全可以治愈</label>
+      <label><input type="radio" name="answer2" value="2" id="q2b"> B. 不能治愈但可控制</label>
+      <label><input type="radio" name="answer2" value="3" id="q2c"> C. 不需要治疗</label>
+      <label><input type="radio" name="answer2" value="4" id="q2d"> D. 会自愈</label>
+    </div>
+
+    <div class="question" id="q3">
+      <div class="q-title">3. 艾滋病的传播途径包括？</div>
+      <label><input type="checkbox" name="answer3[]" value="1" id="q3a"> A. 性接触传播</label>
+      <label><input type="checkbox" name="answer3[]" value="2" id="q3b"> B. 血液传播</label>
+      <label><input type="checkbox" name="answer3[]" value="3" id="q3c"> C. 母婴传播</label>
+      <label><input type="checkbox" name="answer3[]" value="4" id="q3d"> D. 空气传播</label>
+    </div>
+
+    <div class="question" id="q4">
+      <div class="q-title">4. 蚊子叮咬会传播艾滋病。</div>
+      <label><input type="radio" name="answer4" value="1" id="q4a"> A. 正确</label>
+      <label><input type="radio" name="answer4" value="2" id="q4b"> B. 错误</label>
+    </div>
+
+    <div class="question" id="q5">
+      <div class="q-title">5. 艾滋病病毒主要攻击人体的哪种细胞？</div>
+      <label><input type="radio" name="answer5" value="1" id="q5a"> A. 红细胞</label>
+      <label><input type="radio" name="answer5" value="2" id="q5b"> B. CD4+T淋巴细胞</label>
+      <label><input type="radio" name="answer5" value="3" id="q5c"> C. 血小板</label>
+      <label><input type="radio" name="answer5" value="4" id="q5d"> D. 神经细胞</label>
+    </div>
+
+    <input type="submit" value="交卷">
+  </form>
+</div>
+</body>
+</html>
