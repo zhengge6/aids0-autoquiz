@@ -13,7 +13,7 @@ Pure-Python · WeChat session extraction · 100-question official bank · Revers
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
-[English](README.md) · **简体中文**
+[English](README.md) · [简体中文](README.zh-CN.md)
 
 *Reverse-engineered for research & automation study. Use only on accounts you own.*
 
